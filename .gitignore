@@ -1,0 +1,74 @@
+# Laravel specific
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.env
+/.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+
+# Homestead
+/.vagrant
+
+# Laravel Mix
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Laravel Telescope
+/storage/app/telescope
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# PhpStorm
+.idea
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+
+# VS Code
+.vscode
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Composer
+composer.lock
+
+# Application context
+/.env.*.local
+.env
+
+# Laravel Dusk
+/browser-snapshots
+/node_modules
+
+# PHPUnit
+/phpunit.xml
+/phpunit-report.xml
+/tests/Report
+/vendor/bin/phpunit
+
+# Laravel Horizon
+/storage/horizon
+/storage/horizon-service
+/storage/framework/horizon
+
+# Laravel Nova
+/ nova
+/storage/nova
+
+# Laravel Passport
+/storage/oauth-*/*/*/*
+
+# Laravel Backup File
+/backups
